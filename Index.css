@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Main';
+    src: url('Behdad-Regular.ttf');
+}
+
+* {
+    font-family: 'Main';
+}
+body{  
+    margin:0;
+    padding:0;
+    direction: rtl;
+    background-color: lightgray;   
+}
+.title{
+    text-align: center;
+}
+.ourWay{
+display: block;
+margin:0 auto 0 auto;
+width: 50%;
+}
