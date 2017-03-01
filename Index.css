@@ -6,17 +6,37 @@
 * {
     font-family: 'soozanchiBehdad';
 }
-body{  
+a{
+    text-decoration: none;
+    color:inherit;
+}
+body{
     margin:0;
     padding:0;
     direction: rtl;
     background-color: lightgray;   
 }
+
+header a{
+    background-color: white;
+    color:black;
+    padding: .5em;
+    margin: .1em;
+    border-radius: .3em;
+}
 .title{
     text-align: center;
+    margin:0;
+    padding-bottom: 1em;
+    display: block;
+    top:0;
+    position: absolute;
+    width:100%;
+    background-color: black;
+    color:white;
 }
 .ourWay{
 display: block;
-margin:0 auto 0 auto;
+margin:1em auto 0 auto;
 width: 50%;
 }
